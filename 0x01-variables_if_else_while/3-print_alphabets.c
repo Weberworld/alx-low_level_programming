@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char upper[26] = "ABCDEFGHIJKLMNOPQRSTUWXYZ";
+	char upper[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char lower[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 

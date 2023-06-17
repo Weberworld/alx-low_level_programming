@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar('0' + i);
 	}
-	for (i = 0 ; i < strlen(hexLetters); i++)
+	for (i = 0 ; i < 6; i++)
 	{
 		char l = hexLetters[i];
 

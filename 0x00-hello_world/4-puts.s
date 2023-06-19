@@ -1,8 +1,9 @@
-	.file	"main.c"
+	.file	"4-puts.c"
 	.text
 	.section	.rodata
+	.align 8
 .LC0:
-	.string	"I am comming home tomoorowo"
+	.string	"\"Programming is like building a multilingual puzzle"
 	.text
 	.globl	main
 	.type	main, @function

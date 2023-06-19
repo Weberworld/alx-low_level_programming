@@ -4,14 +4,13 @@
 /**
  * main - Entry point
  *
- * Description: Prints texts with special character without  using printf and puts
+ * Description: Prints texts with special character without  using printf
  *
  * Return: Always 1 (success)
  */
 int main(void)
 {
-	char quote[] = "and that piece of art is useful\" - "
-		"Dora Korpar, 2015-10-19";
+	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	int counter;
 	int len = strlen(quote);
 

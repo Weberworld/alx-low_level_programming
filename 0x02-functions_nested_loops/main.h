@@ -7,6 +7,4 @@
  *
  * Return: Always 0 (success)
  */
-int printPutchar(void)
-{
-}
+int printPutchar(void);

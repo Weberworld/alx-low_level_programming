@@ -2,12 +2,12 @@
 #include "main.h"
 
 
-/*
+/**
  * main - Entry point
  *
- * Description: prints text _putchar with a new line
+ * Description: 'prints text _putchar with a new line'
  *
- * Return: Always 0(success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {

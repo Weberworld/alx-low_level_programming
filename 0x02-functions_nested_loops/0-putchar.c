@@ -1,7 +1,15 @@
-#include "main.h"
 #include <string.h>
+#include "main.h"
 
-printPutchar(void)
+
+/*
+ * main - Entry point
+ *
+ * Description: prints text _putchar with a new line
+ *
+ * Return: Always 0(success)
+ */
+int main(void)
 {
 	char text[10] = "_putchar";
 	int len = strlen(text);
@@ -15,17 +23,4 @@ printPutchar(void)
 	}
 	putchar('\n');
 	return (0);
-}
-
-
-/*
- * main - Entry point
- *
- * Description: prints text _putchar with a new line
- *
- * Return: Always 0(success)
- */
-int main(void)
-{
-	printPutchar();
 }

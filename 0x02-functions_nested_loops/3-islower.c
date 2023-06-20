@@ -9,9 +9,9 @@
  */
 int _islower(char c)
 {
-	if ((char <= 122)
+	if ((c <= 122)
 			&&
-			(char >= 97))
+			(c >= 97))
 	{
 		return (1);
 	}

@@ -39,6 +39,14 @@ void print_alphabet_x10(void);
  * _islower - Tells if chars are lowrcase or not
  * @c - Character to check
  *
- * Return: 1 if char is lowrcase and -0 if it is nit
+ * Return: 1 if char is lowercase and 0 if it is not
  */
 int _islower(char c);
+
+/**
+ * _isalpha - Telss if a passed char is an alphabet
+ * @c: Character to check
+ *
+ * Return: 1 if char is an alphabet and - if not
+ */
+int _isalpha(char c);

@@ -25,3 +25,12 @@ void _putchar(char c);
  * Return: Void
  */
 void print_alphabet(void);
+
+/**
+ * print_alphabet_x10 - Funtion prototype
+ *
+ * Description: Prints all alphabets 10x
+ *
+ * Return: Void
+ */
+void print_alphabet_x10(void);

@@ -50,3 +50,11 @@ int _islower(char c);
  * Return: 1 if char is an alphabet and - if not
  */
 int _isalpha(char c);
+
+/**
+ * print_sign - Return the sign on a number
+ * @n: Number to check
+ *
+ * Return: 1 if n is greater than 1, 0 if n is 0, -1 if n is lesser than 1
+ */
+int print_sign(int n);

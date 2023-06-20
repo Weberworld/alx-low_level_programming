@@ -58,3 +58,5 @@ int _isalpha(char c);
  * Return: 1 if n is greater than 1, 0 if n is 0, -1 if n is lesser than 1
  */
 int print_sign(int n);
+
+int print_last_digit(int);

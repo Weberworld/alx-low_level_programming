@@ -34,3 +34,11 @@ void print_alphabet(void);
  * Return: Void
  */
 void print_alphabet_x10(void);
+
+/**
+ * _islower - Tells if chars are lowrcase or not
+ * @c - Character to check
+ *
+ * Return: 1 if char is lowrcase and -0 if it is nit
+ */
+int _islower(char c);

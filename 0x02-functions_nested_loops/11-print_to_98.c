@@ -24,11 +24,16 @@ void print_to_98(int n)
 			{
 				_putchar((counter % 10) + '0');
 			}
+			if (counter != 98)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 	}
 	else
 	{
-		for (counter = n; counter <= 98; counter--)
+		for (counter = n; counter >= 98; counter--)
 		{
 			if (counter / 10 > 0)
 			{
@@ -38,6 +43,11 @@ void print_to_98(int n)
 			else
 			{
 				_putchar((counter % 10) + '0');
+			}
+			if (counter != 98)
+			{
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 	}

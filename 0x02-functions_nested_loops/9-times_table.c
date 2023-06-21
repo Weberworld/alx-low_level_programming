@@ -21,7 +21,7 @@ void times_table(void)
 			_putchar(' ');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	/* The times table from 1 - 9 */
 	for (r = 1; r <= 9; r++)
@@ -29,8 +29,17 @@ void times_table(void)
 		counter = 0;
 		for (c = 0; c <= 9; c++)
 		{
-			times = r * counter;
-			_putchar(times + '0');
+			times = (r * counter);
+			if (times /10 > 0)
+			{
+				_putchar((times / 10) + '0');
+				_putchar((times % 10) + '0');
+			}
+			else
+			{
+				_putchar((times % 10) + '0');
+			}
+			
 			if (c != 9)
 			{
 				_putchar(',');

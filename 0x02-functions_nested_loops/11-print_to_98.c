@@ -11,16 +11,34 @@ void print_to_98(int n)
 {
 	int counter;
 
-	for (counter = n; counter <= 98; counter++)
+	if (n <= 98)
 	{
-		if (counter / 10 > 0)
+		for (counter = n; counter <= 98; counter++)
 		{
-			_putchar((counter / 10) + '0');
-			_putchar((counter % 10) + '0');
+			if (counter / 10 > 0)
+			{
+				_putchar((counter / 10) + '0');
+				_putchar((counter % 10) + '0');
+			}
+			else
+			{
+				_putchar((counter % 10) + '0');
+			}
 		}
-		else
+	}
+	else
+	{
+		for (counter = n; counter <= 98; counter--)
 		{
-			_putchar((counter % 10) + '0');
+			if (counter / 10 > 0)
+			{
+				_putchar((counter / 10) + '0');
+				_putchar((counter % 10) + '0');
+			}
+			else
+			{
+				_putchar((counter % 10) + '0');
+			}
 		}
 	}
 	_putchar('\n');

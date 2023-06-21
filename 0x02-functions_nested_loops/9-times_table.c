@@ -37,7 +37,7 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar(' ');
+				_putchar((times % 10) +'0');
 			}
 			
 			if (c != 9)

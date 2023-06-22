@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * _isupper - Functions that check ifa char is an uppercase

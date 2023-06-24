@@ -14,6 +14,10 @@ void print_square(int size)
 		{
 			_putchar('#');
 		}
-		_putchar('\n');
+		if (col != (size - 1))
+		{
+			_putchar('\n');
+		}
 	}
+	_putchar('\n');
 }

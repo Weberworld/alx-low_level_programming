@@ -2,4 +2,4 @@
 
 void _putchar(char);
 
-char *_strcat(char *a, char *b);
+char *_strcat(char *dest, char *src);

@@ -9,14 +9,14 @@
  */
 char *_strdup(char *str)
 {
-	if (str == NULL)
-	{
-		return (NULL);
-	}
 	char *cpy;
 	int x;
 
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	cpy = malloc(sizeof(str));
 	if (cpy == NULL)
 	{

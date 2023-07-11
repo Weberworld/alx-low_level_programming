@@ -22,7 +22,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (x = 0; x != '\0', x++)
+	for (x = 0; x != '\0'; x++)
 	{
 		*(cpy + x) = str[0];
 	}

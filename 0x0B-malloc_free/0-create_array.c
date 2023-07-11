@@ -28,6 +28,5 @@ char *create_array(unsigned int size, char c)
 	{
 		*(arr + x) = c;
 	}
-	free(arr);
 	return (arr);
 }

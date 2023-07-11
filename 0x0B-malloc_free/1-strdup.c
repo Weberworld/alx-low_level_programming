@@ -10,9 +10,12 @@
 char *_strdup(char *str)
 {
 	char *cpy;
-	int x;
+	unsigned int x, y;
 
 
+	for (y = 0; str[y] != '\0'; y++)
+	{
+	}
 	if (str == NULL)
 	{
 		return (NULL);
@@ -22,7 +25,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (x = 0; str[x] != '\0'; x++)
+	for (x = 0; x < (y + 1); x++)
 	{
 		*(cpy + x) = str[x];
 	}

@@ -8,7 +8,7 @@
  */
 unsigned int _strlen(char *str)
 {
-	unsgined int x;
+	unsigned int x;
 
 
 	for (x = 0; str[x] != '\0'; x++)

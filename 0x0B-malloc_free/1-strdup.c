@@ -13,12 +13,12 @@ char *_strdup(char *str)
 	unsigned int x, y;
 
 
-	for (y = 0; str[y] != '\0'; y++)
-	{
-	}
 	if (str == NULL)
 	{
 		return (NULL);
+	}
+	for (y = 0; str[y] != '\0'; y++)
+	{
 	}
 	cpy = (char *)malloc(sizeof(char) * (y + 1));
 	if (cpy == NULL)

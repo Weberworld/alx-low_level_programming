@@ -26,6 +26,5 @@ char *_strdup(char *str)
 	{
 		*(cpy + x) = str[x];
 	}
-	*(cpy + x) = '\n';
 	return (cpy);
 }

@@ -52,7 +52,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (y = 0; y < b; y++, x++)
 	{
-		joint[x] == s2[y];
+		joint[x] = s2[y];
 	}
 	return (joint);
 }

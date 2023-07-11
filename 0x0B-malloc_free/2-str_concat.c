@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	a = _strlen(s1);
-	b = strlen(s2);
+	b = _strlen(s2);
 	joint = (char *)malloc(sizeof(char) * (a + b + 1));
 	if (joint == NULL)
 	{

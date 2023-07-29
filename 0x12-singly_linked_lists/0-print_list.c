@@ -15,11 +15,11 @@ int print_list(const list_t *head)
 		return (0);
 	}
 	int x = 0;
-	list_t temp = head;
+	list_t *temp = head;
 
 	while (temp != NULL)
 	{
-		printf("[0] (nil)\n", temp->len, temp->str);
+		printf("[%d] %s\n", temp->len, temp->str);
 		x++;
 		temp = temp->next;
 	}

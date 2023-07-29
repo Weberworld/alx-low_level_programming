@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 
 /**
@@ -9,15 +9,14 @@
  */
 size_t print_list(const list_t *head)
 {
-	int x = 0;
-	list_t *temp = head;
+	size_t x = 0;
 
-	while (temp != NULL)
+	while (head != NULL)
 	{
-		if (temp->str == NULL)
-			printf("[%d] %s", 0, "(nil)");
-		printf("[%d] %s\n", temp->len, temp->str);
-		temp = temp->next;
+		if (head->str == NULL)
+			printf("[%d] %s\n", 0, "(nil)");
+		printf("[%d] %s\n", head->len, head->str);
+		head = head->next;
 		x++;
 	}
 	return (x);

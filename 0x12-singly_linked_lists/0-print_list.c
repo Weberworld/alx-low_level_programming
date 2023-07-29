@@ -7,7 +7,7 @@
  *
  * Return: The number of items in the list
  */
-int print_list(const list_t *head)
+size_t print_list(const list_t *head)
 {
 	if (head == NULL)
 	{

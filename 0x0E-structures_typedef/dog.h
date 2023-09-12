@@ -9,7 +9,8 @@
  *
  * Description: struct named "dog" itwhich stores its name, age and owner
  */
-struct dog{
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
